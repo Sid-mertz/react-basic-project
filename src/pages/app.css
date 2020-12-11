@@ -1,0 +1,58 @@
+body{
+    background: #3c424a;
+    color:white
+}
+.toDoList{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px; 
+    margin: 0 auto;
+}
+.toDoList h3{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.toDoList input{
+    padding: 20px;
+    border-radius: 5px 0 0 5px;
+    border:1px solid #313131;
+    background: #343a40;
+    color: white;
+    width:318px;
+}
+.toDoList input:focus{
+    border:1px solid  rgb(121, 121, 231);
+    outline:none
+}
+.toDoList button{
+    background: rgb(121, 121, 231);
+    color: white;
+    border: none;
+    font-weight: bold;
+    width: 140px;
+    text-transform: uppercase;
+    border:none;
+    padding: 21px;
+    border-radius:0 5px 5px 0;
+    cursor: pointer;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+.toDoList button:focus{
+    border:none;
+    outline:none
+}
+.toDoList button:hover{
+    background: orange;
+}
+.todolisting{
+    margin-top: 20px;
+}
+.todolisting li{
+    color:#A1A1A1;
+    margin-bottom: 10px;
+    /* font-style: italic; */
+}
+
+.bg{
+    max-width: 80%;
+}

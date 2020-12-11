@@ -1,0 +1,22 @@
+form{
+    background: #e1e1e1;
+    padding: 20px;;
+}
+form label{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    display: block;
+}
+form input{
+    height: 45px;
+    min-width: 250px;
+    border:1px solid #e1e1e1;
+}
+form input.error{
+    border-color:red
+}
+form .form-group{
+    margin-bottom: 20px;;
+}
