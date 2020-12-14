@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
-import Address from '../contact';
-import GreetPage from '../greet';
+// import Address from '../contact';
+// import GreetPage from '../greet';
 
 class AboutPage extends Component{
     render(){
