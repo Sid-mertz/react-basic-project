@@ -6,7 +6,7 @@ import './app.css';
 // import ReactLoop from './pages/loop';
 // import Todolist from './pages/todo';
 import React from 'react';
-import {BrowserRouter, Route, Switch, Link, NavLink} from 'react-router-dom';
+import {BrowserRouter, Route, Switch,  NavLink} from 'react-router-dom';
 
 
 // const { default: Lifecycle } = require("./pages/home/lifecycle");
