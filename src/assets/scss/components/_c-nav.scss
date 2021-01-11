@@ -1,0 +1,72 @@
+.c-nav{
+    .nav-toggler{
+        display: none;
+        position: relative;
+        cursor: pointer;
+        z-index:4;
+        right:10px;
+        @media #{$tablet}{
+            display: block;
+        }
+    }
+    .nav-list{
+        display: block;
+        li{  
+            display: inline-block;
+            a{
+                color: black;
+                display: block;
+                padding: 25px 25px;
+                text-align: center;
+                font-weight: bold;
+                &.active{
+                    color: red;
+                }
+            }
+        }
+        @media #{$tablet}{
+            background: white;
+            position: fixed;
+            right:0;
+            top:0; 
+            bottom: 0;
+            border-left:1px solid #dedede;
+            min-width: 300px;
+            transform: translateX(100%);
+            transition:all 0.4s ;
+            z-index: 3;
+            &.active{
+                transform: translateX(0);
+            }
+            li{  
+                display: block;
+                a{
+                    color: black;
+                    display: block;
+                    padding: 25px 25px;
+                    text-align: center;
+                    font-weight: bold;
+                }
+            }
+        }
+        // display: flex;
+            
+    }
+    .nav-overlay{
+        position: fixed;
+        top:0;
+        right:0;
+        bottom: 0;
+        left:0;
+        background: rgba(0,0,0,0.5);
+        width: 100%;
+        z-index: 2;
+
+    }
+} 
+.c-navlist{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+

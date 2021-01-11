@@ -2,15 +2,19 @@
 import React,{Component} from 'react';
 
 class Address extends Component{
-    // constructor(props){
-    //     super(props);
-    // }
+    constructor(props){
+        super(props);
+        // console.log(props);
+    }
     render(){
-        // const {address, email, phone} = this.props;
+        const{id, name} = this.props.match.params;
         return(
             <div>
-                {/* Adress: {address} , Email: {email}, Phone: {phone} */}
-                This is Contact Us Page
+                
+                Contact Us Page
+                    <p>ID: {id} </p>
+                    <p>Name: {name} </p>
+                    {/* <p>Name: {name}</p> */}
             </div>
         ) 
     }

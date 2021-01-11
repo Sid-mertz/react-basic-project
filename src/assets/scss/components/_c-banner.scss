@@ -1,0 +1,27 @@
+.c-banner{
+    .carousel__next-button,
+    .carousel__back-button{
+        position: absolute;
+        top:50%;
+        transform:translateY(-50%);
+        font-size: 35px;
+        border: none;
+        width: auto;
+        padding: 15px;
+        line-height: 0;
+        background: rgba(255,255,255,0.6);
+        outline: none;
+        box-shadow:0 0 15px rgba(0, 0, 0, 0.2);
+        transition:all 0.4s;
+        &:hover{
+            background: blue;
+            color: white;
+        }
+    }
+    .carousel__next-button{
+        right: 0;
+    }
+    .carousel__back-button{
+        left: 0;
+    }
+}
